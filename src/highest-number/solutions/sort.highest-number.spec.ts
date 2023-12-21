@@ -3,6 +3,7 @@ import { getHighestNumber } from './sort.highest-number'
 
 describe('getHighestNumber', () => {
   it('should get the highest number given an array of one number', () => {
+    console.log(typeof getHighestNumber)
     const given = [42]
 
     const actual = getHighestNumber(given)
